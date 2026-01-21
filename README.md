@@ -3,7 +3,7 @@
   <head>
   </head>
   <body>
-      <h1> An Improved Finite Element Based Approach Process for Computing Minimzers to the Dirichlet Eigenvalues </h1>
+      <h1> An Improved Finite Element Based Approach Process for Computing Minimizers to the Dirichlet Eigenvalues </h1>
       <h2> Overview </h2>
       <p>  
       The programs provided in this work are designed to produce computational minimzers for the Dirichlet eigenvalue problem under a volume constraint (|Ω|=1).
@@ -18,7 +18,7 @@
       <h4> Candidate</h4>
       <p>
         This is the most important class from the perspective of the end-user, and contains several convenient functions 
-        that simplify the inquiry process. The following is a summary of the functions intended for direct use by an end-user.
+        that simplify the inquiry process. The following is a summary of the main functions intended for direct use by an end-user.
         More detailed information and source code are available in the file itself.  
         <table>
           <tr>
@@ -77,7 +77,8 @@
       <h4> LaplaceLSFEvolution </h4>
       <p>
         This class is the runtime for the evolution process. Input parameters determine whether the runtime is for 
-        manual iteration and closely observing results, or for batch processing of Candidates.
+        manual iteration and closely observing results, or for batch processing of candidates.
       </p>
   </body>
 </html>
+
